@@ -172,6 +172,10 @@ padding: 2rem;
 padding: 3rem;
 }
 
+.l-heading{
+  font-size: 2rem;
+}
+
 /* Inner page grid container */
 .page-container{
   display: grid;
@@ -289,6 +293,17 @@ color: var(--dark-color);
     grid-column: 2 / span 2;
   }
 
+  #article .meta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 0.5rem;
+  }
+
+  #article .meta .category{
+    margin-top: 0.4rem;
+  }
   /* footer */
 
 #main-footer{
