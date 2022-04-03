@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 .container{
   max-width: var(--max-width);
   margin: auto;
-  padding: 0;
+  padding: 0 2rem;
   overflow: hidden;
 }
 
@@ -151,6 +151,10 @@ h1, h2, h3, h4, h5, h6 {
 .bg-secondary a
 {
   color: #fff
+}
+
+.px-1{
+  padding: 0 1.5rem;
 }
 
 .py-1{
